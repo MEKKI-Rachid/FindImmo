@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>FindImmo - Comparateur de terrain</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="style_index.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<header>
+			<ol>
+				<ul><a href="register.html">Inscription</a></ul>
+				<ul><a href="login.html">Connexion</a></ul>
+				<ul><a href="contact.html">Contact</a></ul>
+			</ol>
+			<div class="search" itemtype="http://schema.org/WebSite">
+				<input type="search" placeholder="Rechercher" style="width: 250px"/>
+			</div>	
+		</header>
+
+		<nav>
+			<ol>
+				<ul><p><a href="index.html">Accueil</a><p></ul>
+				<ul><p><a href="terrain.html">Terrain</a><p></ul>
+				<ul><p><a href="features.html">Nouveauté</a><p></ul>
+				<ul><p><a href="other.html">Autre</a><p></ul>
+			</ol>
+		</nav>
+
+		<section>
+			<p class=build> Contactez nous </p>
+			<form method="post" action="traitement.php">
+				<table border="0" cellspacing="0" cellpadding="0">					
+					<tbody>
+						<tr>
+							<td align="right"><font color="red">*</font><label>Nom</label> : <input type="text" name="nom" /></td>
+						</tr>
+						<tr>
+							<td align="right"><font color="red">*</font><label>Prenom</label> : <input type="text" name="prenom" /></td>
+						</tr>
+						<tr>
+			   				<td align="right"><label>Telephone</label> : <input type="tel" name="tel" /></td>
+						</tr>
+						<tr>
+							<td align="right"><font color="red">*</font><label>EMail</label> : <input type="email" name="mail" /></td>
+						</tr>
+						<tr>
+							<td align="right"><font color="red">*</font><label>Demande</label> : <textarea name="ameliorer" id="ameliorer"></textarea><br/><br/></td>
+						</tr>
+						<tr>
+			   				<td align="right"><input type="submit" value="Envoyer" /></td>
+						</tr>
+					</tbody>		
+			   	</table>
+			</form>
+		</section>
+
+
+		<footer>
+			FindImmo.com 2017 © - Le seul site destiné exclusivement aux comparatif de terrain<br/>
+			68 Avenue des Pyrénées, 31600 Muret,<br/>
+			Mentions légales - Plan du site - <a href="contact.html">Contact</a> - Partenaires <br/>
+			Conception, Design : Zalera Neylis.
+		</footer>
+
+	</body>
+</html>
